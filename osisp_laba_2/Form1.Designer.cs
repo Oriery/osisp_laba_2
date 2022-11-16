@@ -65,6 +65,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(972, 959);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
+            this.dataGridView1.SizeChanged += new System.EventHandler(this.dataGridView1_SizeChanged);
             // 
             // Column1
             // 
